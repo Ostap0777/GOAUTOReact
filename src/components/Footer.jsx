@@ -1,12 +1,12 @@
 import React from 'react'
-import icon1 from '../img/icon/iconGoAuto.png';
-import icontelephone from '../img/footer/free-icon-telephone-159832.png'
+import icon1 from '../img/icon/iconGoAuto.png'
+
 
 export default function Footer() {
   return (
 	 <footer className='footer'>
 	   <div className='footer__container'>
-	     <img className='footer__image' src={icon1} alt='Icon 1' />
+	     <img className='footer__image' src={icon1}  alt='Icon 1' />
 		  <div className='footer__social social'>
 			<a href="#" className='social__link social__facebook'>Go Auto Lviv</a>
 			<a href="#" className='social__link social__instagram'>goautolviv</a>

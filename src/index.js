@@ -2,10 +2,14 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App.js'; 
+import App from './components/App'; 
 import './index.css'; 
-import './index.scss'; 
-
+import './css/cars.css'
+import './css/footer.css'
+import './css/header.css'
+import './css/advantages.css'
+import './css/mainfoto.css'
+import './css/services.css'
 ReactDOM.render(
   <React.StrictMode>
     <App />

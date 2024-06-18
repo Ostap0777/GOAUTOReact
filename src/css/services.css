@@ -1,0 +1,55 @@
+.section {
+
+}
+.service {
+
+}
+.service__container {
+	padding-top: 100px;
+}
+.service__title {
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+}
+.service__items {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 70px;
+
+}
+.service__item {
+text-align: center;
+background-color: rgba(231, 231, 231, 0.5);
+padding: 10px 20px; 
+border-radius: 20px;
+}
+.service__item:hover {
+	background-color: rgba(231, 231, 231, 0.8);
+	cursor: pointer;
+}
+.service__image {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+.service__name {
+	font-size: 22px;
+	font-weight: 700;
+	color: rgba(26, 24, 24, 0.5);
+	margin-bottom: 10px;
+}
+.service__name:hover {
+	color: rgba(26, 24, 24, 0.2);
+}
+.service__info{
+	color: rgba(26, 24, 24, 0.5) ;
+	line-height: 20px;
+}
+.service__info:hover {
+	color: rgba(26, 24, 24, 0.2);
+}
+.service__button {
+
+}
