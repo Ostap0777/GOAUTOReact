@@ -1,0 +1,18 @@
+.location__container {
+
+}
+.location__title {
+text-align: center;
+font-size: 40px;
+}
+.location__content {
+display: flex;
+}
+.content__left {
+display: flex;
+flex-direction: column;
+flex: 0 1 50%;
+}
+.content__right {
+flex: 0 1 50%;
+}

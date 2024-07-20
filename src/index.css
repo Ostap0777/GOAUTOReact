@@ -52,9 +52,16 @@ button {
 	padding: 0px 15px;
 }
 .wrapper {
-	min-height: 100%;
+   position: relative;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ overflow: hidden;
+
+}
+
+
+.swiper-wrapper {
 	display: flex;
-	flex-direction: column;
-	overflow: clip;
 }
 

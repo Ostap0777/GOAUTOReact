@@ -1,399 +1,402 @@
  {
 	"cars": [
 		{
+			"id": "1",
 			"name":"Porche",
 			"model":"Macan S",
-			"photo": "path/to/photo.jpg",
+			"photo": "/cars/macan1.jpeg",
 			"price": "29.000",
 			"run": "115.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/macan2.jpeg",
+				"photothree": "/cars/macan3.jpeg",
 				"opus": "Технічно питань немає, авто повністю обслужене. По кузову в гарному стані, зі штатів мала мінімальні пошкодження задньої частини.",
 				"year": 2017,
 				"color": "White",
-				"fuel": "Petrol",
-			   "Engine": "3.0"
+				"fuel": "Бензин",
+			   "engine": "3.0"
 			 }
 		},
 		{
+			"id": "2",
 			"name":"Volkswagen",
 			"model":"Toureg",
-			"photo": "",
+			"photo": "/cars/toureg1.jpeg",
 			"price": "22.000",
 			"run": "199.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/toureg2.jpeg",
+				"photothree": "/cars/toureg3.jpeg",
 				"opus": "Машина в дуже хорошому стані, коробка автомат 8 ст, обслужена до деталей, двигун працює ідеально та ніяких підтьоків масла немає.По кузову або в ідеальному стані, після повного детейлінгу нанесено кераміку на кузов та сидіння. Фарбоване переднє праве крило, все решта в рідній фарбі, оригінальний пробіг!",
 				"year": 2012,
 				"color": "Black",
-				"fuel": "Petrol",
-				"Engine": "3.0"
+				"fuel": "Бензин",
+				"engine": "3.0"
 			 }
 		},
 		{
+			"id": "3",
 			"name":"Mazda",
 			"model":"CX-5",
-			"photo": "photo_2024-06-15 20.59.40.jpeg",
+			"photo": "/cars/mazda1.jpeg",
 			"price": "19.800",
 			"run": "71.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "./img/cars/photo_2024-06-15 20.59.50.jpeg",
-				"photothree": "..//img/cars/photo_2024-06-15 20.59.57.jpeg",
-				"photofour": "..//img/cars/photo_2024-06-15 21.00.01.jpeg",
+				"phototwo": "/cars/mazda2.jpeg",
+				"photothree": "/cars/mazda3.jpeg",
 				"opus": "Авто яке не потребує додаткових витрат. Кілька тисяч тому зроблено повне ТО (заміна масла в моторі, коробці, роздатці і мостах, нові свічки і ремні з роликами, нові гальмівні диски+колодки). Є чек з усіма підтвердженнями. Передня і задня оптика замінена на європейську (LED). Оптика і передня частина авто захищена плівкою.",
 				"year": 2017,
 				"color": "Black",
-				"fuel": "Petrol",
-				"Engine": "2.5"
+				"fuel": "Бензин",
+				"engine": "2.5"
 			 }
 		},
 		{
+			"id": "4",
 			"name":"Land Rover",
 			"model":"Discovery Sport 2020",
-			"photo": "",
+			"photo": "/cars/landrover1.jpeg",
 			"price": "43.000",
 			"run": "105.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/landrover2.jpeg",
+				"photothree": "/cars/landrover3.jpeg",
 				"opus": "Авто яке не потребує додаткових витрат. Кілька тисяч тому зроблено повне ТО (заміна масла в моторі, коробці, роздатці і мостах, нові свічки і ремні з роликами, нові гальмівні диски+колодки). Є чек з усіма підтвердженнями. Передня і задня оптика замінена на європейську (LED). Оптика і передня частина авто захищена плівкою.",
 				"year": 2017,
 				"color": "Black",
-				"fuel": "Petrol",		
-				"Engine": "2.0"
+				"fuel": "Бензин",		
+				"engine": "2.0"
 			 }
 		},
 		{
+			"id": "5",
 			"name":"Audi",
 			"model":"Q7",
-			"photo": "",
+			"photo": "/cars/audiq7.1.jpeg",
 			"price": "21.600",
 			"run": "339.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/audiq7.2.jpeg",
+				"photothree": "/cars/audiq7.3.jpeg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2013,
 				"color": "Black",
-				"fuel": "Petrol",
-				"Engine": "3.0"
+				"fuel": "Бензин",
+				"engine": "3.0"
 			 }
 		},
 		{
+			"id": "6",
 			"name":"Mercedes",
 			"model":"CLA250",
-			"photo": "",
+			"photo": "/cars/cla1.jpeg",
 			"price": "15.500",
 			"run": "169.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/cla2.jpeg",
+				"photothree": "/cars/cla3.jpeg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2014,
 				"color": "White",
-				"fuel": "Petrol",
-				"Engine": "2.0"
+				"fuel": "Бензин",
+				"engine": "2.0"
 			 }
 		},
 		{
+			"id": "7",
 			"name":"Citroen",
 			"model":"C4 Cactus",
-			"photo": "",
+			"photo": "/cars/cactus.1.jpeg",
 			"price": "10.500",
 			"run": "192.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/cactus.2.jpeg",
+				"photothree": "/cars/cactus.3.jpeg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2015,
 				"color": "White",
-				"fuel": "Petrol",
-				"Engine": "1.6"
+				"fuel": "Бензин",
+				"engine": "1.6"
 			 }
 		},
 		{
+			"id": "8",
 			"name":"Audi",
 			"model":"Q3",
-			"photo": "",
+			"photo": "/cars/audiq3.1.jpeg",
 			"price": "20.000",
 			"run": "94.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/audiq3.2.jpeg",
+				"photothree": "/cars/audiq3.3.jpeg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2016,
 				"color": "Black",
-				"fuel": "Petrol",
-				"Engine": "1.4"
+				"fuel": "Бензин",
+				"engine": "1.4"
 			 }
 		},
 		{
+			"id": "9",
 			"name":"Audi",
 			"model":"A4 B9",
-			"photo": "",
+			"photo": "/cars/audia4one.1.jpeg",
 			"price": "19.000",
 			"run": "187.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
+				"phototwo": "/cars/audia4one.2.jpeg",
+				"photothree": "/cars/audia4one.3.jpeg",
 				"photofour": "path/to/photo.jpg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2017,
 				"color": "Black",
-				"fuel": "Petrol",
-				"Engine": "2.0"
+				"fuel": "Бензин",
+				"engine": "2.0"
 			 }
 		},
 		{
+			"id": "10",
 			"name":"Skoda",
 			"model":"Octavia VRS",
-			"photo": "",
+			"photo": "/cars/skodavrs.1.jpeg",
 			"price": "7.300",
 			"run": "272.000",
 			"transmission": "Mehanical",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/skodavrs.2.jpeg",
+				"photothree": "/cars/skodavrs.3.jpeg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2006,
 				"color": "Black",
-				"fuel": "Petrol",
-				"Engine": "2.0"
+				"fuel": "Бензин",
+				"engine": "2.0"
 			 }
 		},
 		{
+			"id": "11",
 			"name":"Citroen",
 			"model":"Rifter",
-			"photo": "",
+			"photo": "/cars/citroenrifter.1.jpeg",
 			"price": "15.900",
 			"run": "140.000",
 			"transmission": "Mehanical",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/citroenrifter.2.jpeg",
+				"photothree": "/cars/citroenrifter.3.jpeg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2006,
 				"color": "White",
-				"fuel": "Petrol",
-				"Engine": "1.6"
+				"fuel": "Бензин",
+				"engine": "1.6"
 			 }
 		},
 		{
+			"id": "12",
 			"name":"Bmw",
 			"model":"X5 30d Individual",
-			"photo": "",
+			"photo": "/cars/bmwx5.1.jpeg",
 			"price": "55.000",
 			"run": "65.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/bmwx5.2.jpeg",
+				"photothree": "/cars/bmwx5.3.jpeg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2020,
 				"color": "Black",
-				"fuel": "Petrol",
-				"Engine": "3.0"
+				"fuel": "Бензин",
+				"engine": "3.0"
 			 }
 		},
 		{
+			"id": "13",
 			"name":"Audi",
 			"model":"A4 B9",
-			"photo": "",
+			"photo": "/cars/audia4two.1.jpeg",
 			"price": "25.000",
 			"run": "51.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
+				"phototwo": "/cars/audia4two.2.jpeg",
+				"photothree": "/cars/audia4two.3.jpeg",
 				"photofour": "path/to/photo.jpg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2020,
 				"color": "Black",
-				"fuel": "Petrol",
-				"Engine": "2.0"
+				"fuel": "Бензин",
+				"engine": "2.0"
 			 }
 		},
 		{
+			"id": "14",
 			"name":"Bmw",
 			"model":"320i",
-			"photo": "",
+			"photo": "/cars/bmw3.1.jpeg",
 			"price": "7.600",
 			"run": "244.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
+				"phototwo": "/cars/bmw3.2.jpeg",
+				"photothree": "/cars/bmw3.3.jpeg",
 				"photofour": "path/to/photo.jpg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2008,
 				"color": "Black",
-				"fuel": "Petrol",
-				"Engine": "2.0"
+				"fuel": "Бензин",
+				"engine": "2.0"
 			 }
 		},
 		{
+			"id": "15",
 			"name":"Bmw",
 			"model":"530d",
-			"photo": "",
+			"photo": "/cars/bmw5.1.jpeg",
 			"price": "14.000",
 			"run": "331.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/bmw5.2.jpeg",
+				"photothree": "/cars/bmw5.3.jpeg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2010,
 				"color": "Black",
-				"fuel": "Petrol",
-				"Engine": "3.0"
+				"fuel": "Бензин",
+				"engine": "3.0"
 			 }
 		},
 		{
+			"id": "16",
 			"name":"Honda",
 			"model":"CR-V",
-			"photo": "",
+			"photo": "/cars/honda-crv1.jpeg",
 			"price": "12.500",
 			"run": "235.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/honda-crv2.jpeg",
+				"photothree": "/cars/honda-crv3.jpeg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2011,
 				"color": "Blue",
-				"fuel": "Petrol",
-				"Engine": "2.4"
+				"fuel": "Бензин",
+				"engine": "2.4"
 			 }
 		},
 		{
+			"id": "17",
 			"name":"Bmw",
 			"model":"320d",
-			"photo": "",
+			"photo": "/cars/bmw320d.1.jpeg",
 			"price": "8.500",
 			"run": "292.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/bmw320d.2.jpeg",
+				"photothree": "/cars/bmw320d.3.jpeg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2009,
 				"color": "White",
-				"fuel": "Petrol",
-				"Engine": "2.0"
+				"fuel": "Бензин",
+				"engine": "2.0"
 			 }
 		},
 		{
+			"id": "18",
 			"name":"Audi",
 			"model":"Q7",
-			"photo": "",
+			"photo": "/cars/audiq7two.1.jpeg",
 			"price": "16.600",
 			"run": "278.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/audiq7two.2.jpeg",
+				"photothree": "/cars/audiq7two.3.jpeg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2011,
 				"color": "Black",
-				"fuel": "Petrol",
-				"Engine": "3.0"
+				"fuel": "Бензин",
+				"engine": "3.0"
 			 }
 		},
 		{
+			"id": "19",
 			"name":"Volkswagen",
 			"model":"Passat",
-			"photo": "",
+			"photo": "/cars/passatb7.1.jpeg",
 			"price": "11.500",
 			"run": "237.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/passatb7.2.jpeg",
+				"photothree": "/cars/passatb7.3.jpeg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2011,
 				"color": "White",
-				"fuel": "Petrol",
-				"Engine": "2.0"
+				"fuel": "Бензин",
+				"engine": "2.0"
 			 }
 		},
 		{
+			"id": "20",
 			"name":"Bmw",
 			"model":"520d",
-			"photo": "",
+			"photo": "/cars/bmwf10.1.jpeg",
 			"price": "14.000",
 			"run": "320.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/bmwf10.2.jpeg",
+				"photothree": "/cars/bmwf10.3.jpeg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2011,
 				"color": "White",
-				"fuel": "Petrol",
-				"Engine": "2.0"
+				"fuel": "Бензин",
+				"engine": "2.0"
 			 }
 		},
 		{
+			"id": "21",
 			"name":"Mercedes",
 			"model":"GL350d",
-			"photo": "",
+			"photo": "/cars/mersgls.1.jpeg",
 			"price": "29.000",
 			"run": "200.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/mersgls.2.jpeg",
+				"photothree": "/cars/mersgls.3.jpeg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2013,
 				"color": "Black",
-				"fuel": "Petrol",
-				"Engine": "3.0"
+				"fuel": "Бензин",
+				"engine": "3.0"
 			 }
 		},
 		{
+			"id": "22",
 			"name":"Tesla",
 			"model":"Model 3",
-			"photo": "",
+			"photo": "/cars/tesla3.1.jpeg",
 			"price": "24.000",
 			"run": "62.000",
 			"transmission": "Automatic",
 			"details": {
-				"phototwo": "path/to/photo.jpg",
-				"photothree": "path/to/photo.jpg",
-				"photofour": "path/to/photo.jpg",
+				"phototwo": "/cars/tesla3.2.jpeg",
+				"photothree": "/cars/tesla3.3.jpeg",
 				"opus": "Авто в хорошому стані, замінені ланцюги, все що потрібно в авто зроблено, вкладень не потребує. По кузову фарбовано капот та 2 крила, зі штатів мала передній, геометрія вся ціла.",
 				"year": 2019,
 				"color": "White",
-				"fuel": "Petrol",
-				"Engine": "Electric"
+				"fuel": "Бензин",
+				"engine": "Електро"
 			 }
 		}
 	]
