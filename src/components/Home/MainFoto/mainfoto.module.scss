@@ -1,0 +1,167 @@
+.main__image {
+	width: 100%;
+	height: 900px;
+	position: relative;
+ }
+ 
+ .main__container {}
+ 
+ .main__items {
+	position: absolute;
+	top: 5%;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+ }
+ 
+ .main__item {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	gap: 20px;
+ }
+ 
+ .main__title {
+	font-size: 50px;
+	font-weight: 700;
+	font-family: Russo One, sans-serif;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: rgb(237, 237, 237);
+	letter-spacing: 3px;
+	padding: 20px;
+	background-color: rgba(27, 27, 27, 0.5);
+	box-shadow: 5px 5px 10px rgb(239, 92, 47);
+	border-radius: 20px;
+ }
+ 
+ .main__text__one,
+ .main__text__two {
+	font-size: 28px;
+	text-align: start;
+	color: rgb(255, 255, 255);
+	font-family: Russo One, sans-serif;
+	line-height: 40px;
+	background-color: rgba(27, 27, 27, 0.5);
+	box-shadow: 5px 5px 10px rgb(239, 92, 47);
+	padding: 20px;
+	border-radius: 20px;
+ }
+ 
+ .main__text__one {
+	text-decoration: underline;
+ }
+ 
+ .main__text__two {
+	line-height: 40px;
+	letter-spacing: 0.5px;
+ }
+ 
+ .main__form {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	gap: 20px;
+	background-color: rgba(38, 38, 38, 0.6);
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 1px 5px 10px #060606e6;
+ }
+ 
+ .form__title {
+	font-size: 32px;
+	color: aliceblue;
+	font-weight: 700;
+ }
+ 
+ .input__name,
+ .input__email,
+ .input__phone,
+ .input__text {
+	height: 40px;
+	border-radius: 10px;
+	padding-left: 20px;
+ }
+ 
+ .input__text {
+	height: 150px;
+ }
+ 
+ .input__button {
+	background-color: rgb(27, 27, 27);
+	font-size: 26px;
+	border-radius: 20px;
+	color: aliceblue;
+	padding: 10px 0;
+	letter-spacing: 1px;
+	box-shadow: 1px 5px 10px #060606e6;
+	transition: all 0.3s;
+ 
+	&:hover {
+	  background-color: rgb(70, 70, 70);
+	  box-shadow: 1px 5px 10px #343434e6;
+	}
+ }
+ 
+
+
+ @media (max-width: 900px) {
+	.main {
+		&__items {
+		display: grid;
+		grid-template-columns: repeat(1 , 1fr);
+		width: 100%;
+		top: 2%;
+		gap: 50px;
+		
+		}
+		&__item {
+			width: 100%;
+			text-align: center;
+			gap: 10px;
+			padding: 0px 20px;
+		}
+		&__title {
+			font-size: 38px;
+		}
+		&__text__one {
+			font-size: 22px;
+		}
+		&__text__two {
+			display: none;
+		}
+		&__form {
+		width: 70%;
+		}
+	}
+ }
+
+
+ @media (max-width: 650px) {
+	.main {
+		&__form {
+			width: 80%;
+		}
+
+	}
+ }
+ @media (max-width:500px ) {
+	.main{
+		&__form {
+			width: 100%;
+		}
+		&__title {
+			font-size:  30px;
+		}
+	}
+	.form {
+		&__title {
+			font-size: 26px;
+		}
+	}
+	.input {
+		&__button {
+			font-size: 22px;
+		}
+	}
+ }

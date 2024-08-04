@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import axios from 'axios';
-
-
-import styles from '../../../components/Home/CarsHome/CarsHome.module.css'
+import styles from '../../../components/Home/CarsHome/CarsHome.module.scss'
 import { Link } from 'react-router-dom';
 import Button from '../../UI/Button/Button';
+import 'swiper/swiper-bundle.css';
+import PostService from '../../../API/PostService';
 
 
 export default function Cars() {
@@ -15,9 +15,8 @@ export default function Cars() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://carhome2024-f2095-default-rtdb.firebaseio.com/cars.json');
-        console.log(response);
-        setCars(response.data);
+        const response = await PostService.HomeCars();
+        setCars(response);
       } catch (error) {
         console.error('Error fetching data:', error);
       }
@@ -29,18 +28,26 @@ export default function Cars() {
 
   return (
     <section className={styles.main}>
-      <div className={styles.cars__container}>
+      <div className="cars__container">
         <h2 className={styles.car__title}>Авто на майданчику</h2>
         <Swiper
           className={styles.slider__items}
-          spaceBetween={50}
-          slidesPerView={3}
+          spaceBetween={20}
           navigation
           loop={true}
           loopFillGroupWithBlank={true}
           modules={[Navigation]}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
+			 breakpoints={{
+            320: {
+              slidesPerView: 1,
+            },
+            640: {
+              slidesPerView: 2,
+            },
+            900: {
+              slidesPerView: 3,
+            },
+          }}
         >
           {cars.map((car, index) => (
             <SwiperSlide key={index}>

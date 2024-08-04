@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styles from '../../Home/MainFoto/mainfoto.module.css'
+import styles from '../../Home/MainFoto/mainfoto.module.scss'
 export class MainFoto extends Component {
   render() {
 	 return (

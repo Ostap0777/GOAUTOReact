@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import styles from './header.module.css';
+import styles from './header.module.scss';
 
 
 
@@ -15,7 +15,7 @@ export default function Header() {
 		  	   <Link className={styles.header__aboutus} to="/about-us">Про нас</Link>
 				<Link className={styles.header__availability} to="/cars">Авто в наявності</Link>
 				<Link className={styles.header__usa} to="/cars-usa">Авто з Сша</Link>
-				<Link to="/favoriveCar">
+				<Link to="/favoriteCar">
 			    	<img className={styles.header__favorite} src="/icon/icons8-сердце-50.png" alt="icon" />
 				</Link>
 				<Link to="/login">

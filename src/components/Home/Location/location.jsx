@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from '../Location/location.module.css'
+import styles from '../Location/location.module.scss'
 export default function location() {
   return (
 	 <section className='section'>
-		<div className={styles.location__container}>
+		<div className="location__container">
 			<h2 className={styles.location__title}>Де ми знайти?</h2>
 			<div className={styles.location__content}>
 			<div className={styles.content__left}>

@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
-import styles from '../../../components/Home/MainComponents/services.module.css'
+import styles from '../../../components/Home/MainComponents/services.module.scss'
 
 export class MainServices extends Component {
   render() {
 	 return (
 		<section className={styles.section}>
-			<div className={styles.service__container}>
+			<div className="service__container">
 				<h1 className={styles.service__title}>Послуги які ми надаємо</h1>
 				<div className={styles.service__items}>
 					<div className={styles.service__item}>

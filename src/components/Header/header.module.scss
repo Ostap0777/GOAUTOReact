@@ -1,0 +1,121 @@
+.header {
+	background-color: rgba(0, 0, 0, 0.95);
+	height: 80px;
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+ 
+	&__icon {
+	  img {
+		 margin: 10px 20px;
+		 align-items: center;
+	  }
+	}
+ 
+	&__image {
+	  width: 160px;
+	  height: 60px;
+	  align-items: center;
+ 
+	  &:hover {
+		 cursor: pointer;
+	  }
+	}
+ 
+	&__icon__menu {
+	  display: flex;
+	  gap: 50px;
+	  color: aliceblue;
+	  align-items: center;
+	  font-size: 20px;
+	  letter-spacing: 0.5px;
+	  transition: all 2s ease 2s;
+	}
+ 
+	&__favorite {
+	  width: 50px;
+	  height: 50px;
+ 
+	  &:hover {
+		 opacity: 0.3;
+	  }
+	}
+ 
+	&__login {
+	  width: 35px;
+	  height: 35px;
+ 
+	  &:hover {
+		 opacity: 0.7;
+	  }
+	}
+ 
+	&__container {
+	  display: flex;
+	  justify-content: space-between;
+	  height: 80px;
+	  align-items: center;
+	}
+ 
+	&__aboutus {
+	  &:hover {
+		 text-decoration: underline;
+	  }
+	}
+ 
+	&__availability {
+	  &:hover {}
+	}
+ 
+	&__usa {
+	  &:hover {}
+	}
+ }
+ 
+ .icon__login {
+	&:hover {
+	  opacity: 0.7;
+	  cursor: pointer;
+	}
+ }
+ 
+
+ @media (max-width: 950px) {
+	.header {
+		height: 70px;
+		&__container {
+			height: 70px;
+		}
+		&__icon__menu {
+			gap: 30px;
+			font-size: 18px;	
+		 }
+	
+	&__image {
+			width: 150px;
+			height: 50px;
+	 }
+	 &__favorite {
+		height: 40px;
+		width: 40px;
+	 }
+	 &__login {
+		height: 30px;
+		width: 30px;
+	 }
+	}
+ }
+ 
+
+ @media (max-width:700px) {
+	.header {
+		&__image {
+			width: 100px;
+			height: 40px;
+		}
+		&__icon__menu {
+			font-size: 16px;
+			gap: 20px;
+		}
+	}
+ }

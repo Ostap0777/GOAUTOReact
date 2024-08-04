@@ -399,5 +399,160 @@
 				"engine": "Електро"
 			 }
 		}
+	],
+	"carsUsa": [
+		{
+			"id":"23",
+			"name":"Mercedes",
+			"model": "A220",
+			"run":"39.000",
+			"year": "2019",
+			"transmission": "Automatic",
+			"photo": "/carsUsa/a220.usa.jpg",
+			"price": "25.000"
+		},
+		{
+			"id":"24",
+			"name":"Audi",
+			"model": "A7",
+			"year": "2020",
+			"run":"33.000",
+			"engine": "2.9",
+			"transmission": "Automatic",
+			"photo": "/carsUsa/audi__a7.jpg",
+			"price": "53.000"
+		},
+		{
+			"id":"25",
+			"name":"Audi",
+			"model": "Q8",
+			"year": "2020",
+			"run":"15.000",
+			"engine": "3.0",
+			"transmission": "Automatic",
+			"photo": "/carsUsa/audi__q8.jpg",
+			"price": "49.000"
+		},
+		{
+			"id":"26",
+			"name":"Audi",
+			"model": "A4",
+			"year": "2014",
+			"run":"150.000",
+			"engine": "2.0",
+			"transmission": "Automatic",
+			"photo": "/carsUsa/audia4.usa.jpg",
+			"price": "12.000"
+		},
+		{
+			"id":"27",
+			"name":"Audi",
+			"model": "A5",
+			"year": "2015",
+			"run":"155.000",
+			"engine": "2.0",
+			"transmission": "Automatic",
+			"photo": "/carsUsa/audia5.jpg",
+			"price": "12.000"
+		},
+		{
+			"id":"28",
+			"name":"Audi",
+			"model": "TT",
+			"year": "2020",
+			"run":"13.000",
+			"engine": "3.0",
+			"transmission": "Automatic",
+			"photo": "/carsUsa/audiTT.2020.jpeg",
+			"price": "67.000"
+		},
+		{
+			"id":"29",
+			"name":"Bmw",
+			"model": "540I",
+			"year": "2020",
+			"run":"63.000",
+			"engine": "3.0",
+			"transmission": "Automatic",
+			"photo": "/carsUsa/bmw__5.jpg",
+			"price": "33.000"
+		},
+		{
+			"id":"30",
+			"name":"Bmw",
+			"model": "X3M",
+			"year": "2019",
+			"run":"45.000",
+			"engine": "3.0",
+			"transmission": "Automatic",
+			"photo": "/carsUsa/bmw__x3.jpg",
+			"price": "43.000"
+		},
+		{
+			"id":"31",
+			"name":"Bmw",
+			"model": "535I",
+			"year": "2014",
+			"run":"167.000",
+			"engine": "3.0",
+			"transmission": "Automatic",
+			"photo": "/carsUsa/bmwf10535.usa.jpg",
+			"price": "13.000"
+		},
+		{
+			"id":"32",
+			"name":"Bmw",
+			"model": "X6M",
+			"year": "2016",
+			"run":"67.000",
+			"engine": "4.4",
+			"transmission": "Automatic",
+			"photo": "/carsUsa/bmwx6m.usa.jpg",
+			"price": "45.000"
+		},
+		{
+			"id":"33",
+			"name":"Mercedes",
+			"model": "E63S",
+			"year": "2019",
+			"run":"37.000",
+			"engine": "4.0",
+			"transmission": "Automatic",
+			"photo": "/carsUsa/e63.usa.jpg",
+			"price": "65.000"
+		},
+		{
+			"id":"34",
+			"name":"Lexus",
+			"model": "LS",
+			"year": "2016",
+			"run":"107.000",
+			"engine": "2.0",
+			"transmission": "Automatic",
+			"photo": "/carsUsa/lexus.usa.jpg",
+			"price": "15.000"
+		},
+		{
+			"id":"35",
+			"name":"Mercedes",
+			"model": "S63",
+			"year": "2017",
+			"run":"87.000",
+			"engine": "4.0",
+			"transmission": "Automatic",
+			"photo": "/carsUsa/s63.usa.jpg",
+			"price": "65.000"
+		},
+		{
+			"id":"36",
+			"name":"Tesla",
+			"model": "Model X",
+			"year": "2017",
+			"run":"55.000",
+			"engine": "Electro",
+			"transmission": "Automatic",
+			"photo": "/carsUsa/tesla__x.jpg",
+			"price": "19.000"
+		}
 	]
  }

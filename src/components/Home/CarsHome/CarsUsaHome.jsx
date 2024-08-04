@@ -3,8 +3,10 @@ import React, { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import { Link } from 'react-router-dom';
-import styles from '../../Home/CarsHome/CarsUsa.module.css'
+import styles from '../../Home/CarsHome/CarsUsa.module.scss'
 import Button from '../../UI/Button/Button';
+import 'swiper/swiper-bundle.css';
+import PostService from '../../../API/PostService';
 
 export default function CarsUsaHome() {
   const [cars, setCars] = useState([]);
@@ -14,9 +16,8 @@ export default function CarsUsaHome() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://carhome2024-f2095-default-rtdb.firebaseio.com/carsUsa.json');
-        console.log(response);
-        setCars(response.data); 
+        const response = await PostService.UsaHome()
+        setCars(response); 
         setLoading(false);
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -38,18 +39,23 @@ export default function CarsUsaHome() {
 
   return (
 	<section className={styles.main}>
-	<div className={styles.cars__container}>
+	<div className="cars__container">
 	  <h2 className={styles.car__title}>Авто з США</h2>
 	  <Swiper
 		 className={styles.slider__items}
-		 spaceBetween={150}
-		 slidesPerView={2}
+		 spaceBetween={50}
 		 navigation
 		 loop={true}
 		 loopFillGroupWithBlank={true}
 		 modules={[Navigation]}
-		 onSlideChange={() => console.log('slide change')}
-		 onSwiper={(swiper) => console.log(swiper)}
+		 breakpoints={{
+			640: {
+			  slidesPerView: 1,
+			},
+			750: {
+			  slidesPerView: 2,
+			},
+		 }}
 	  >
 		 {cars.map((car, index) => (
 			<SwiperSlide key={index}>

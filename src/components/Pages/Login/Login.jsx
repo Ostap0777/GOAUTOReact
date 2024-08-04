@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../Pages/Login/login.module.css'
+import styles from '../../Pages/Login/login.module.scss'
 
 import Header from '../../Header/Header'
 import Footer from '../../Footer/Footer'
@@ -8,8 +8,9 @@ import Footer from '../../Footer/Footer'
 export default function Login() {
   return (
 	<>
-	<Header/>
 	<div className='wrapper'>
+	<Header/>
+	
 	<section className={styles.section}>
 		<img className={styles.login__image} src="/login/1_1633 (1) 2-1.jpg"alt="" />
        <div className={styles.login__container}>

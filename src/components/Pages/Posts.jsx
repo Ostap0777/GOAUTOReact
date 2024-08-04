@@ -12,6 +12,7 @@ import Location from '../Home/Location/location';
 
 export default function posts() {
   return (
+
 	<div className='wrapper'>
 	<Header />
 	<MainFoto />

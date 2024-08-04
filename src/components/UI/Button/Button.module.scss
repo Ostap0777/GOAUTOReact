@@ -1,0 +1,21 @@
+.button {
+	font-size: 24px;
+	color: rgb(241, 241, 241);
+	margin: 0 auto;
+	width: 100%;
+	margin: 50px 0px;
+ 
+	a {
+	  background-color: rgb(60, 60, 60);
+	  padding: 10px 30px;
+	  border-radius: 20px;
+	  box-shadow: 1px 5px 10px #343434e6;
+ 
+	  &:hover {
+		 background-color: rgb(26, 26, 26);
+		 cursor: pointer;
+		 box-shadow: 3px 7px 12px #343434e6;
+	  }
+	}
+ }
+ 

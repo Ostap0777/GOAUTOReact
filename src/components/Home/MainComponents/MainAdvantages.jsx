@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styles from '../../../components/Home/MainComponents/advantages.module.css'
+import styles from '../../../components/Home/MainComponents/advantages.module.scss'
 
 export class MainAdvantages extends Component {
   render() {
