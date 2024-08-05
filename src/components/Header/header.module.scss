@@ -119,3 +119,14 @@
 		}
 	}
  }
+
+ @media(max-width:580px) {
+	.header {
+		&__availability {
+			display: none;
+		}
+		&__usa {
+			display: none;
+		}
+	}
+ }

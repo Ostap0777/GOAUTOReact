@@ -1,20 +1,116 @@
-.location__container {}
+.location__container {
+}
 
 .location__title {
   text-align: center;
   font-size: 40px;
+  padding-bottom: 50px;
 }
 
-.location__content {
+.location {
+&__content {
   display: flex;
+  padding-bottom: 50px ;
+  
 }
 
-.content__left {
+}
+.content {
+&__left {
   display: flex;
   flex-direction: column;
   flex: 0 1 50%;
+  gap: 40px;
+  font-size: 28px;
+  }
+  &__right {
+	flex: 0 1 50%;
+  }
 }
 
-.content__right {
-  flex: 0 1 50%;
+
+.link {
+	&__facebook::before {
+		content: '';
+		display: inline-block;
+		transform: translateX(-20%) translateY(10%);
+		width:30px; 
+		height: 30px; 
+		background-image: url('../../../../public/footer/icons8-facebook-40.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	&__instagram:before {
+		content: '';
+		display: inline-block;
+		transform: translateX(-20%) translateY(10%);
+		width:30px; 
+		height: 30px; 
+		background-image: url('../../../../public/footer/icons8-instagram-50\ \(1\).png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	&__tiktok:before {
+		content: '';
+		display: inline-block;
+		transform: translateX(-20%) translateY(10%);
+		width:30px; 
+		height: 30px; 
+		background-image: url('../../../../public/footer/free-icon-tik-tok-3046132.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	&__phone:before {
+		content: '';
+		display: inline-block;
+		transform: translateX(-20%) translateY(10%);
+		width:30px; 
+		height: 30px; 
+		background-image: url('../../../../public/footer/free-icon-phone-call-black.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	&__telegram:before {
+		content: '';
+		display: inline-block;
+		transform: translateX(-20%) translateY(10%);
+		width:30px; 
+		height: 30px; 
+		background-image: url('../../../../public/footer/icons8-телеграм-50.black.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
+
+@media (max-width:850px) {
+	.location {
+		&__content {
+			display: grid;
+			grid-template-columns: repeat(1, 1fr);
+			align-items: center;
+		}
+	}
+	.content {
+		&__left {
+			text-align: center;
+			padding-bottom: 50px;
+		}
+		&__right {
+			text-align: center;
+		}
+	}
+}
+
+
+@media(max-width:650px) {
+	.content {
+		&__location {
+			width:90%;
+		}
+		&__left {
+			font-size: 24px;
+		}
+	}
+
 }
