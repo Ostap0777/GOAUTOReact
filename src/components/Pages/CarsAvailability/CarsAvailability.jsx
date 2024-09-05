@@ -7,21 +7,14 @@ import Footer from '../../Footer/Footer';
 import PostService from '../../../API/PostService';
 import Loader from '../../UI/Loader/Loader';
 import Error from '../Error/Error';
+import { useAppSelector } from '../../../hooks/redux';
+import { useDispatch } from 'react-redux';
+import { fetchCarsAvailable } from '../../../store/reducers/ActionCreators';
 
 export default function CarsAvailability() {
-  const [cars, setCars] = useState([]);
-  const [loading, setLoading] = useState(true);
 
-  const fetchData = useCallback(async () => {
-	try {
-	  const response = await PostService.CarAvailabiliti();
-	  setCars(response);
-	  setLoading(false)
-	} catch (error) {
-	  console.error('Error fetching data:', error);
-
-	}
- }, []);
+	const dispatch = useDispatch()
+	const {carsAvailable, loading,error} = useAppSelector(state => state.cars)
 
  const handleAddFavorite = async (car) => {
 	try {
@@ -29,13 +22,13 @@ export default function CarsAvailability() {
 	 
 	} catch (error) {
 	  console.error('Error adding car to favorites:', error);
-	  setLoading(true)
+
 	}
  };
 
  useEffect(() => {
-	fetchData();
- }, [fetchData]);
+	dispatch(fetchCarsAvailable());
+ }, [dispatch]);
 
   return (
     <>
@@ -44,10 +37,9 @@ export default function CarsAvailability() {
       <section className={styles.main}>
         <div className={styles.cars__container}>
           <h2 className={styles.car__title}>Авто на майданчику</h2>
-			 {loading && <Loader/>}
-			 {!loading && (
+			{loading && <Loader/>}
           <div className={styles.cars__items}>
-            {cars.map((car, index) => (
+            {carsAvailable.map((car, index) => (
               <div className={styles.cars__item} key={index}>
                 <img className={styles.car__image} src={car.photo } alt="Icon 1" />
                 <h1 className={styles.car__name}>Марка: {car.name}</h1>
@@ -64,7 +56,6 @@ export default function CarsAvailability() {
               </div>
             ))}
           </div>
-			 )}
         </div>
       </section>
 		</div>

@@ -7,25 +7,17 @@ import Button from '../../UI/Button/Button';
 import Modal from '../../UI/MyModal/myModal'
 import PostService from '../../../API/PostService';
 import Loader from '../../UI/Loader/Loader'
+import { useAppDispatch, useAppSelector } from '../../../hooks/redux';
+import {fetchCarsUsa} from '../../../store/reducers/ActionCreators';
 
 export default function Carsusa() {
-
-	const [cars, setCars] = useState([])
 	const [modalActive, setModalActive] = useState(false);
-	const [loading, setLoader] = useState(true)
+	const dispatch = useAppDispatch();
+	const {carsUsa, loading, error} = useAppSelector(state => state.cars)
 
 	useEffect(() => {
-	  const fetchData = async () => {
-	   try	{
-			const response = await PostService.CarsUsa()
-			setCars(response);
-			setLoader(false)
-		} catch (error) {
-			console.log("error")
-		}
-	  }
-	  fetchData()
-	}, [])
+		dispatch(fetchCarsUsa())
+	},[dispatch])
 
 
   return (
@@ -36,9 +28,8 @@ export default function Carsusa() {
         <div className={styles.cars__container}>
           <h2 className={styles.car__title}>Авто з США</h2>
 			 {loading && <Loader/>}
-			 {!loading && (
           <div className={styles.cars__items}>
-				{cars.map((car,id) => (
+				{carsUsa.map((car,id) => (
               <div className={styles.cars__item} key={id}>
                 <img className={styles.car__image} src={car.photo} alt="Icon 1" />
                 <h1 className={styles.car__name}>Марка: {car.name}</h1>
@@ -51,7 +42,6 @@ export default function Carsusa() {
               </div>
          ))}
           </div>
-			 )}
         </div>
 		  <Modal active={modalActive}  setActive={setModalActive}/>
       </section>
